@@ -1,0 +1,10 @@
+<project name="Learn Ant" default="echoHelloWorld" basedir=".">
+  <target name="echoHelloWorld">
+    <echo>Hello World</echo>
+  </target>
+  <target name="cmdHelloWorld">
+    <exec executable="echo">
+      <arg value="Hello World" />
+    </exec>
+  </target>
+</project>
