@@ -6,5 +6,9 @@
     <exec executable="echo">
       <arg value="Hello World" />
     </exec>
+    <target name="cmdHelloWorld2">
+      <exec executable="echo">
+        <arg value="Hello World" />
+      </exec>
   </target>
 </project>
